@@ -1,0 +1,79 @@
+{
+  "OptimizeVertexCache" : true,
+  "UseCompression" : true,
+  "CompressedVertsRange" : 16383,
+  "CompressedColorsRange" : 16383,
+  "CompressedUnitVectorRange" : 16383,
+  "Materials" : [ {
+    "Profile" : "COMMON",
+    "Technique" : "lambert",
+    "MaterialName" : "lambert1",
+    "AmbientColor" : "#000000ff",
+    "DiffuseColor" : "#666666ff",
+    "EmissiveColor" : "#000000ff",
+    "SpecularColor" : "#000000ff",
+    "Shininess" : 0.0,
+    "UsesTransparency" : false,
+    "TextureEntries" : [ ]
+  } ],
+  "Scene" : {
+    "Type" : "Node",
+    "Name" : "Gallery_wo_Lightmap_02",
+    "Transform" : {
+      "Translation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ],
+      "Rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ]
+    },
+    "Children" : [ {
+      "Type" : "Node",
+      "Name" : "Screen01",
+      "Transform" : {
+        "Translation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ],
+        "Rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ]
+      },
+      "Children" : [ {
+        "Type" : "Node",
+        "Name" : "Screen01Shape",
+        "Transform" : {
+          "Translation" : [ 0.0, 0.0, 0.0 ],
+          "Scale" : [ 1.0, 1.0, 1.0 ],
+          "Rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ]
+        },
+        "Children" : [ {
+          "Type" : "Mesh",
+          "Name" : "Screen01Shape[initialShadingGroup]",
+          "Transform" : {
+            "Translation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ],
+            "Rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ]
+          },
+          "Material" : "lambert1",
+          "MeshData" : {
+            "VertexCount" : 4,
+            "VertexOffsets" : {
+              "xOffset" : -26820.46,
+              "yOffset" : 12151.117,
+              "zOffset" : 7553.801
+            },
+            "VertexScale" : 3.6294022E-4,
+            "Vertices" : "######㵍#耡耠#耡",
+            "Normals" : "耡###䀡###䀡###",
+            "TextureCoords" : [ {
+              "UVOffsets" : [ 0.0, 0.0 ],
+              "UVScales" : [ 9.775171E-4, 9.775171E-4 ],
+              "UVs" : "#ࠡ#ࠠ##ࠡ#"
+            }, {
+              "UVOffsets" : [ 6673.706, 1048.8251 ],
+              "UVScales" : [ 1.2621583E-4, 2.6409226E-4 ],
+              "UVs" : "##ࠡ#ࠡࠠ#ࠡ"
+            } ],
+            "Indices" : "#%%&'%",
+            "IndexModes" : [ "Triangles" ],
+            "IndexLengths" : [ 6 ]
+          }
+        } ]
+      } ]
+    } ]
+  }
+}

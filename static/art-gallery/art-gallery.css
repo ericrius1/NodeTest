@@ -1,0 +1,185 @@
+/* Generated from art-gallery.less */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto.woff") format("woff");
+}
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  border: none;
+  cursor: default;
+  margin: 0rem;
+  outline: none;
+  padding: 0rem;
+}
+html {
+  font-size: 16px;
+}
+canvas#goo {
+  height: 100%;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
+  top: 0rem;
+  width: 100%;
+}
+body,
+html {
+  height: 100%;
+  margin: 0px;
+}
+.assembly,
+.camera {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  transform-origin: 50% 50% 50%;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+}
+.viewport {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.object {
+  height: 800px;
+  width: 1280px;
+}
+div.dg.ac {
+  z-index: 10;
+}
+h1,
+h2,
+h3,
+p {
+  color: #dfdfdf;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+h2,
+h3 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.button {
+  box-shadow: 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125);
+  -moz-box-shadow: 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125);
+  -ms-box-shadow: 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125);
+  -o-box-shadow: 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0625rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125);
+  border-color: #1f1f1f;
+  border-style: solid;
+  border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -moz-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -ms-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: #4f4f4f;
+  cursor: pointer;
+  padding: 0.5rem;
+  text-align: center;
+}
+.button:hover {
+  background-color: #5f5f5f;
+}
+.content {
+  padding: 0.5rem;
+  z-index: 10;
+}
+.content > * {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.dialog {
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.75);
+  -ms-box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.75);
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: #3f3f3f;
+}
+.dialog > h3 {
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -moz-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -ms-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  background-image: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.000) 50%, rgba(255, 255, 255, 0.000) 100%);
+  box-shadow: 0.0000rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0000rem -0.0625rem 0.0000rem rgba(0, 0, 0, 0.500);
+  -webkit-box-shadow: 0.0000rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0000rem -0.0625rem 0.0000rem rgba(0, 0, 0, 0.500);
+  -moz-box-shadow: 0.0000rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0000rem -0.0625rem 0.0000rem rgba(0, 0, 0, 0.500);
+  -ms-box-shadow: 0.0000rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0000rem -0.0625rem 0.0000rem rgba(0, 0, 0, 0.500);
+  -o-box-shadow: 0.0000rem 0.0625rem 0.0000rem rgba(255, 255, 255, 0.125), inset 0.0000rem -0.0625rem 0.0000rem rgba(0, 0, 0, 0.500);
+  margin: 0rem 0rem 0.0625rem 0rem;
+  background-color: #4f4f4f;
+  padding: 0.5rem;
+}
+.dialog > div > * {
+  display: block;
+  margin: 0.5rem;
+}
+#buttons {
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
+  text-align: center;
+}
+#filters {
+  display: none;
+  max-width: 19rem;
+  position: absolute;
+  left: 0rem;
+  right: 0rem;
+  top: 0rem;
+  text-align: left;
+}
+#filters.visible {
+  display: block;
+}
